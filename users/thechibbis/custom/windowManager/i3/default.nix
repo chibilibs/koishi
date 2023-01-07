@@ -12,9 +12,11 @@ in {
         { command = "bash ~/.config/polybar/launch.sh --blocks"; always = true; notification = false; }
         { command = "bash ~/.fehbg"; always = true; notification = false; }
         { command = "exec dunst"; always = true; notification = true; }
+        { command = "exec picom"; always = true; notification = false; }
       ];
       terminal = "kitty";
       window.titlebar = false;
+      window.border = 2;
       gaps = {
         inner = 5;
         outer = 5;

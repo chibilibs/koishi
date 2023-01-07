@@ -92,5 +92,6 @@ in
     ./custom/shell/zsh.nix
     ./custom/windowManager/i3
     ./custom/windowManager/dunst
+    ./custom/windowManager/picom
   ];
 }
