@@ -16,7 +16,7 @@ in {
       ];
       terminal = "kitty";
       window.titlebar = false;
-      window.border = 2;
+      window.border = 0;
       gaps = {
         inner = 5;
         outer = 5;

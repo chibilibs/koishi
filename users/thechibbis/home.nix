@@ -85,7 +85,6 @@ in
   
   imports = [
     ./custom/editor/helix.nix
-#    ./custom/editor/emacs
     ./custom/app/dev/git.nix
     ./custom/app/term/kitty.nix
     ./custom/app/web/firefox.nix
